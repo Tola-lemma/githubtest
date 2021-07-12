@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include <iostream>
 #include <fstream>
 #include <cstring>
@@ -15,6 +15,7 @@ struct bus
 	char destination[20];
 	char starting_time[10];
 }b;
+
 
 void createBusInfo()
 {
