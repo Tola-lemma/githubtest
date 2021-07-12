@@ -5,6 +5,7 @@
 using namespace std;
 int main()
 {
+    
   int enter=10;
 cout<<"enter";
   cin>>enter;
