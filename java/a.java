@@ -1,8 +1,8 @@
 public class a
 {
-public static void main()
+public static void main(String[] a)
 {
 	
-	system.out.println("hello world this first trail of java programming");
+	System.out.println("hello world this first 1st \ntrail of java programming");
 }
 }
