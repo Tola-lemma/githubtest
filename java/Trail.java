@@ -6,7 +6,9 @@
 package tola.lemma.keywords;
 
 /**
- *
+ *The use of  "this" keywords
+ * "this" keyword cannot be referenced from a "static" context.
+ * NON STATIC METHOD CANNOT BE REFERENCED FROM A STATIC CONTEXT.
  * @author hp
  */
 public class Trail {
@@ -15,7 +17,6 @@ public class Trail {
     {
 //      a=a;
 //      b=b;
-        
         this.a=a;
         this.b=b;
    System.out.println("a= "+a);
