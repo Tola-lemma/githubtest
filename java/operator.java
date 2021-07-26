@@ -5,7 +5,7 @@
                    *enjoy coding
                 */
 class operator{
-public static   void main(String[] args)
+public static void main(String[] args)
 {
         int x=20;
      System.out.println("****************UNARY OPERATOR 1 ++ & --***********");
