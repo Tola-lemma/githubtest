@@ -1,6 +1,6 @@
 /*
  * Java Fundamentals
- * Lab 4-1 Viewing and Adding Code to an Existing Java Program
+ * Lab 4-1 Viewing and Adding Code to an Existing Java Program
  */
 package et.edu.aau.oop.lab4;
 
