@@ -12,7 +12,6 @@
  * chop that string into separate pieces and print them in the desired order and format.
  */
 package tola.lemma.project3;
-
 /**
  *
  * @author Tola Lemma

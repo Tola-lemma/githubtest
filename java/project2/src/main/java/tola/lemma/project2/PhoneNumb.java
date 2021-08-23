@@ -12,7 +12,6 @@
  * Local : 294-5555
  * Campus : 4-5555
  * package tola.lemma.project2;
-
 /**
  *
  * @author Tola Lemma

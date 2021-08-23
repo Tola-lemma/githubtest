@@ -10,7 +10,6 @@ package tola.lemma.project;
 
 import java.util.Locale;
 import java.util.Random;
-
 /**
  *
  * @author Tola Lemma

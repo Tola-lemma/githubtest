@@ -12,7 +12,6 @@
  * 11 Print the class average
  */
 package tola.lemma.test1;
-
 /**
  *
  * @author Tola Lemma
