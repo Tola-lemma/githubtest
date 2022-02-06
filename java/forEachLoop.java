@@ -8,9 +8,7 @@
 //for each loop is used to traverse array or collection in java
 import java.util.Scanner;
 class forEachLoop{
-	static{
-        System.out.println("Static block .");
-    }
+	
 static int a=10;
 public static void main(String[] args){
 Scanner input=new Scanner(System.in);
@@ -20,14 +18,11 @@ Scanner input=new Scanner(System.in);
 	//System.out.println(arry.length);//length of an array
 	for(int i:copyArray)// i must initialized inside a for loop 
 	{
-		//System.out.println(i);
+		System.out.println(i);
 	}
 	//System.out.println(arry[6]);
-	    System.out.println(a);
-		int x;
-                 System.out.println("Please Enter any number to exit");
-                 x=input.nextInt();
-	             System.exit(x);
+	   // System.out.println(a);
+		
 
       }
         }

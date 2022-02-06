@@ -10,7 +10,9 @@ package tola.lemma.interface_example1;
  * @author Tola Lemma
  */
 interface printable{
-void print();
+    void print();
+   
+
 }
 class A6 implements printable {
     @Override

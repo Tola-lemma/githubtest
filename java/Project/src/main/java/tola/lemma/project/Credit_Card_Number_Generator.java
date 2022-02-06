@@ -19,7 +19,7 @@ public class Credit_Card_Number_Generator {
     
     public static void main(String[] args) {
         Random rand = new Random();
-String yourValue = String.format((Locale)null, //don't want any thousand separators
+       String yourValue = String.format((Locale)null, //don't want any thousand separators
                         "6011-%04d-%04d-%04d",
                         //rand.nextInt(100),
                         rand.nextInt(10000),

@@ -14,8 +14,8 @@ abstract class Shape {
     Shape() {
         System.out.println("TO TEST AS SUPER IMPLICITLY CALLED");
     }
-
-    abstract void draw();
+ abstract void draw();
+   
 }
 
 class Rectangle extends Shape {
@@ -45,6 +45,6 @@ public class TestAbstact {
         Shape s = new Circle();//also possible if i write like Circle s=new Circle(); but doesn't show abstraction
        Shape s1 = new Rectangle();
         s.draw();
-         s1.draw();
+         //s1.draw();
     }
 }

@@ -11,19 +11,19 @@ package tola.lemma.constructorexample;
  */
 public class ConstructorExample1 {
    static String x;
-    ConstructorExample1(){
+     ConstructorExample1(){
         this("defualt");
         System.out.println("Hello passing no parameter");}
     ConstructorExample1(String x){
         this.x=x;
-       
     }
     void display(String x){
      System.out.println(x);
     
     }
     public static void main(String[] args) {
-        ConstructorExample1 b=new ConstructorExample1("hello home");
-        b.display(x);
+        //ConstructorExample1 b=new ConstructorExample1("hello home");
+       ConstructorExample1 c=new ConstructorExample1();
+        c.display(x);
     }
 }

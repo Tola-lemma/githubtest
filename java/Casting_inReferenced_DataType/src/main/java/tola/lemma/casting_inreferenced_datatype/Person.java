@@ -32,7 +32,7 @@ public class Person{
    }
    public void displayStudent() {
       System.out.println("Data of the Student class: ");
-      System.out.println("Name: "+this.name);
+      System.out.println("Name: "+ this.name);
       System.out.println("Age: "+this.age);
       System.out.println("Branch: "+this.branch);
       System.out.println("Student ID: "+this.Student_id);
@@ -44,7 +44,7 @@ public class Person{
    Person person = new Person("Krishna", 20);
    //Converting the object of student to person
    person = (Student) student;
-  student.displayPerson();
+ student.displayPerson();
 /*
   public static void main(String[] args) {
    //Converting the object of Student to Person

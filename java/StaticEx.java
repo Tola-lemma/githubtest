@@ -8,7 +8,7 @@
  *
  * @author Tola Lemma
  */
- //Creating Static variable Method and blocks
+ //Creating Static variable, Method and blocks
 public class StaticEx {
   
     static int ad = 100;

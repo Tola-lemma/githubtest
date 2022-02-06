@@ -11,9 +11,9 @@ package tola.lemma.constructorexample2;
  */
 public class ConstructorExample2 {
     int id;
-    String name;
+  String name;
     ConstructorExample2(int i,String n){
-        id=i;
+     id=i;
         name=n;
     }
 //    void display(){

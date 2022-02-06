@@ -7,7 +7,8 @@
 /**
  *
  * @author Tola Lemma
- */ class CountStudent {
+ */ 
+ class CountStudent {
     
     public static void main(String s[])
     {
