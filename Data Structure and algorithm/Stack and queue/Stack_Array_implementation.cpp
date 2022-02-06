@@ -2,7 +2,7 @@
 using namespace std;
 static int stack[5];
 int top=-1;
- push(int item){
+ void push(int item){
 	if(top<5){
 		top=top+1;//top++
     stack[top]=item;
@@ -12,7 +12,7 @@ int top=-1;
     cout<<"stack overflow";
 }
 }
- pop(){
+ void pop(){
 	int item;
 	if(top==-1){
 	cout<<"under flow\n";	
@@ -23,7 +23,7 @@ int top=-1;
 	cout<<item;
 		}
 }
- peek(){//top element
+ void peek(){//top element
 	if(top==-1){
 		cout<<"stack is empty\n";
 	}
