@@ -17,6 +17,7 @@ count++;
  newhead->next=head;
  head=newhead;
  }
+
 void addEnd(){
     node *temp;
     node *newnode=new node;
@@ -31,6 +32,7 @@ void addEnd(){
     }
     temp->next=newnode;
 }
+
 void addatspecifiedLoc(){
 node *temp;
 node *newnode=new node;
@@ -60,18 +62,19 @@ temp->next=newnode;
  
 
  void deletefront(){
-     node *temp=new node;
+     node *temp;
  if(head==NULL){
 	cout<<"empty list ";}
     else
 	{
 	temp=head;
-	head=head->next;
+	head=temp->next;//head=head->next;
 	delete temp;
     cout<<"deleted successfully\n";
     count--;
  }
  }
+
 void deleteEnd(){
     node *temp ;
     node *temp2;
@@ -79,7 +82,7 @@ void deleteEnd(){
 	cout<<"empty list ";}
     else
     {
-temp=head;
+    temp=head;
 while (temp->next!=NULL)
 {
     temp2=temp;
@@ -134,6 +137,7 @@ void display(node *temp){
  }
  cout<<endl;
  }
+ 
 
  void display_Reverse () {
         node *current,*next,*prev;
@@ -150,7 +154,7 @@ void display(node *temp){
     }
 
 void Print(struct node *p)  //to display recursivily 
-{1
+{
     if (p==NULL)
     return;
     cout<<" "<<p->data;
@@ -173,11 +177,11 @@ void Print(struct node *p)  //to display recursivily
      cout<<"9: display reverse\n";
      cout<<"0: to exit\n"; 
  }
+ 
  int main(){ 
      top: 
       menu();     
-     node *temp,*temp2;
- int iterate; 
+node *temp,*temp2;
  int choice;
  do{
  cout<<"please enter your choice\n";
@@ -190,7 +194,6 @@ case 1:
  cout<<"Enter your data"<<endl;
  for(int i=1;i<=n;i++){
  temp= new node; //new=malloc(sizeof(struct node))
- temp2; 
 cin>>temp->data;
 temp->next=NULL;
 if (head==NULL)
@@ -199,7 +202,7 @@ if (head==NULL)
 }
 else
 {
-    temp2=head ;
+    temp2=head;
     while(temp2->next!=NULL)
 	{
 		temp2=temp2->next;//move to next link in chain
@@ -208,6 +211,7 @@ else
 }
 count++;
  }
+
 temp=head;//head pointer to store address of structure
 break;
 case 2:

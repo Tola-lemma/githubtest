@@ -46,7 +46,7 @@ class Test2{
        encap.setName("Tola Lemma");
        encap.setEmail("tolalemma@gmail.com");
        encap.setAmount(590000F);
-System.out.println("Name:       "+encap.getName()
+System.out.println("Name:         "+encap.getName()
                            +"\nAccount numb: "+encap.getAcc_no()
                           + "\nEmail Address: "+encap.getEmail()
                          +"\nAmount in Bank: "+ encap.getAmount());

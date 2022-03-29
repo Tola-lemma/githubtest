@@ -18,3 +18,7 @@ public class ArrayListExample{
 	}
 	
 }
+
+
+
+//[Tola , Tade, Marry, Meseret, Tefera]

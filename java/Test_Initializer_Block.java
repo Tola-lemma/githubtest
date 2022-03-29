@@ -10,7 +10,7 @@ class Test_Initializer_Block {
     int speed;
 
     Test_Initializer_Block() {
-		super();
+	
         System.out.println("constructor is invoked.");
     }
 

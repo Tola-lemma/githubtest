@@ -40,8 +40,8 @@ pop(){
      top=bottom=stack;    
     }
     else{
-        while(target->next!=top)
-        target=target->next;
+        while(target->next!=top){
+        target=target->next;}
         pop_value=top->item;
         delete top;
         top=target;
@@ -55,6 +55,7 @@ int main(){
     cout<<"enter an item\n";
     cin>>item;
     push(item);
+     push(item);
     delitem=pop();
     cout<<delitem;
 }

@@ -5,10 +5,9 @@ class Bike{
   int speedlimit=150;
  
   public static void main(String args[]){
-   Bike obj=new Honda3();
+   Bike obj=new Honda3();//upcasting run time polymorphism
    //Honda3 c=new Honda3();
    //System.out.println(c.speedlimit);
    System.out.println(obj.speedlimit);//90
-
  }
 }

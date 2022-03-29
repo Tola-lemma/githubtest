@@ -11,7 +11,7 @@ void INSBST(){
   cout<<"Insert the value\n";
   cin>>InsNodePtr->num;
   InsNodePtr->left=NULL;
-  InsNodePtr->right=NULL;
+  InsNodePtr->right=NULL;  
     if (RootNodePtr==NULL)
     {
         RootNodePtr=InsNodePtr;
@@ -79,7 +79,7 @@ int SearchBST(node *RootNodePtr,int x){
     return(SearchBST(RootNodePtr->right,x));
 }
 int FindMin(node *RootNodePtr){
-   if (RootNodePtr==NULL)
+   if (RootNodePtr==NULL) 
     {
         return -1;
     }

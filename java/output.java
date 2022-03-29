@@ -16,6 +16,7 @@ class output {
 				System.out.println("Odd number");
 			double x=9/2;
 			System.out.println("promotion in java  "+x);
+			  //4.0; 9 & 2 are of type int that result in 4 but java promote it to 4.0 means double
             double a, b,c;
             a = 3.0/0;
             b = 0/4.0;

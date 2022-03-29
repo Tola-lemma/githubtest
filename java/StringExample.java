@@ -6,15 +6,16 @@ public static void main(String[] args)
 {
 
 
-StringBuffer hisName = "john smith";
+String hisName = "john smith";
 hisName.concat("Adam Smith");
+
 System.out.println(hisName);
 int l=hisName.length();
 System.out.println(l);
-StringBuffer t="   Hello trimming     ".trim();
+String t="   Hello trimming     ".trim();
 //Returns a copy of the string, with leading and trailing whitespace omitted.
 System.out.println(t);
-StringBuffer lc=t +" JAVA PROGRAMMING".toLowerCase();
+String lc=t +" JAVA PROGRAMMING".toLowerCase();
 System.out.println(lc);//Hello trimming java programming
 //String lc=(t +" JAVA PROGRAMMING").toLowerCase();//hello trimming java programming
 String sub=lc.substring(6);// (pass a primitive) method call that require argumment to be passed

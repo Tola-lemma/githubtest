@@ -5,54 +5,22 @@ public class CreatingExceptions
    //-----------------------------------------------------------------
    //  Creates an exception object and possibly throws it.
    //-----------------------------------------------------------------
-   public static void main (String[] args) {
-    //-----------------------------------------------------------------
-   //  Catches and handles the exception that is thrown in level3.
-   //-----------------------------------------------------------------
-   public void level1()
+   public static void main (String[] args) throws OutOfRangeException
    {
-      System.out.println("Level 1 beginning.");
+      final int MIN = 25, MAX = 40;
 
-      try
-      {
-         level2();
-      }
-      catch (ArithmeticException problem)
-      {
-         System.out.println ();
-         System.out.println ("The exception message is: " +
-                             problem.getMessage());
-         System.out.println ();
-         System.out.println ("The call stack trace:");
-         problem.printStackTrace();
-         System.out.println ();
-      }
+      Scanner scan = new Scanner (System.in);
 
-      System.out.println("Level 1 ending.");
+      OutOfRangeException problem = new OutOfRangeException ("Input value is out of range.");
+
+      System.out.print ("Enter an integer value between " + MIN +
+                        " and " + MAX + ", inclusive: ");
+      int value = scan.nextInt();
+
+      //  Determine if the exception should be thrown
+      if (value < MIN || value > MAX)
+         throw problem;
+
+      System.out.println ("End of main method.");  // may never reach
    }
-
-   //-----------------------------------------------------------------
-   //  Serves as an intermediate level.  The exception propagates
-   //  through this method back to level1.
-   //-----------------------------------------------------------------
-   public void level2()
-   {
-      System.out.println("Level 2 beginning.");
-      level3 ();
-      System.out.println("Level 2 ending.");
-   }
-
-   //-----------------------------------------------------------------
-   //  Performs a calculation to produce an exception.  It is not
-   //  caught and handled at this level.
-   //-----------------------------------------------------------------
-   public void level3 ()
-   {
-      int numerator = 10, denominator = 0;
-
-      System.out.println("Level 3 beginning.");
-      int result = numerator / denominator;
-      System.out.println("Level 3 ending.");
-   }
-}}
-  
+}
